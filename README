@@ -1,0 +1,58 @@
+Google Search Site-block Plus
+
+== Description ==
+
+Selected web-sites aren't displayed from Google search result.
+
+== Requirements ==
+
+Firefox with the Greasemonkey extension running.
+Supported 'AutoPagerize' 0.0.12 or later.
+
+== Install ==
+
+Visit http://github.com/mostlyfine/google-search-site-block-plus/tree/master/google_search_site_block.user.js
+
+== Configuration ==
+
+// Blocked sites :
+  var blocks = new Array(
+    "del.icio.us",
+    "buzzurl.jp",
+    "(a|b|r|k|mgw).hatena.ne.jp",
+    "1470.net",
+    "pookmark.jp",
+    "(psearch|bookmarks).yahoo.co.jp",
+    "clip.(nifty|livedoor).com",
+    "(esearch|tag|pt.afl).rakuten.co.jp",
+    "bookmark.fc2.com",
+    "swik.net",
+    "kizasi.jp",
+    "mark.jolt.jp",
+    "taggy.jp",
+    "clickmarks.com",
+    "news.goo.ne.jp",
+    "feed.designlinkdatabase.net",
+    "(s|www).technorati.jp"
+  );
+  
+
+// Result search display :
+  var mode = "hidden"; // "hidden" or "weaken"
+
+
+== The Original Script Copyright ==
+
+Written by leva.
+http://note.openvista.jp/212/
+
+Modified by Shinya
+http://userscripts.org/scripts/show/12504
+
+== Licence ==
+
+Released under the CCL by-nc-na ja license.
+http://creativecommons.org/licenses/by-nc-sa/2.1/jp/
+
+Therefore, the license of this script is under the CCL by-nc-na ja license, too.
+
