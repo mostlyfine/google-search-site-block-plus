@@ -42,7 +42,8 @@
     "clickmarks.com",
     "news.goo.ne.jp",
     "feed.designlinkdatabase.net",
-    "(s|www).technorati.jp"
+    "(s|www).technorati.jp",
+    "okyuu.com"
   );
   
   var mode = "hidden"; // "hidden" or "weaken"
