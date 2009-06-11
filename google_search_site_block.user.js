@@ -1,10 +1,9 @@
 // ==UserScript==
-// @name           Google Search Site-block Plus
 // @description    Selected web-sites aren't displayed from Google search result.
 // @version        1.0.1
 // @author         mostlyfine
 // @namespace      http://www.ihatovo.org/
-// @include        http://www.google.*
+// @include        http://www.google.co.jp/search?*
 // @Note           Supported 'AutoPagerize' 0.0.12 or later.
 // ==/UserScript==
 
