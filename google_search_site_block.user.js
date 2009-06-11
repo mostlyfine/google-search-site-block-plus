@@ -49,7 +49,7 @@
   var mode = "hidden"; // "hidden" or "weaken"
   
   
-  siteBlock($X("//li[@class='g']"));
+  siteBlock($X("//li[@class='g w0' or @class='g']"));
   
   var filter = function(elm){
     siteBlock($X(".//li[@class='g']", elm[0]));
